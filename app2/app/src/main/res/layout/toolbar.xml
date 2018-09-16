@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ToorbarActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toorbar"
+        android:background="#0000ff"
+        app:navigationIcon="@mipmap/ic_drawer_home"
+        app:popupTheme="@style/ToolbarPopurTheme"
+        app:title="首页"
+        app:titleTextColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hello Toolbar"
+            android:textSize="30sp"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+</LinearLayout>
